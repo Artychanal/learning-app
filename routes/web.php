@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return 'Roma is available';
+    return 'aaaaaaaaaaaaaaa';
 });
 
-Route::get('/my_page', 'MyPlaceController@index');
+Route::get('/my_page', 'App\Http\Controllers\MyPlaceController@index');
